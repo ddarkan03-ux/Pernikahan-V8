@@ -41,7 +41,7 @@ window.DATA_UNDANGAN = {
     maps: "https://maps.google.com/?q=Bekasi" },
 
   foto: 
-  { cover: "foto/cover.webp", 
+  { cover: "foto/cover.avif", 
     mempelaiPria: "foto/pria.webp", 
     mempelaiWanita: "foto/wanita.webp", 
     penutup: "foto/galeri3.webp", 
@@ -56,11 +56,11 @@ window.DATA_UNDANGAN = {
   [{tahun:"2020", judul:"Bertemu", isi:"tes"},
     {tahun:"2020", judul:"Bertemu", isi:"tes"}],            // contoh: [{tahun:"2020", judul:"Bertemu", isi:"..."}]
   
-  galeri: ["foto/galeri1.webp",
-    "foto/galeri2.webp",
-    "foto/galeri2.webp",
-    "foto/galeri2.webp",
-    "foto/galeri3.webp"],           // contoh: ["foto/g1.jpg","foto/g2.jpg"] (kosong = bagian disembunyikan)
+  galeri: ["foto/galeri1.avif",
+    "foto/galeri2.avif",
+    "foto/galeri2.avif",
+    "foto/galeri2.avif",
+    "foto/galeri3.avif"],           // contoh: ["foto/g1.jpg","foto/g2.jpg"] (kosong = bagian disembunyikan)
   
     live: "",             // tautan YouTube/Zoom
   hadiah: { rekening: [ // maksimal 2
