@@ -60,7 +60,7 @@ window.DATA_UNDANGAN = {
     "foto/galeri-1.webp",
     "foto/galeri-2.webp",
     "foto/galeri-4.webp",
-    "foto/galeri-6.webp"],           // contoh: ["foto/g1.jpg","foto/g2.jpg"] (kosong = bagian disembunyikan)
+    "foto/cerita.webp"],           // contoh: ["foto/g1.jpg","foto/g2.jpg"] (kosong = bagian disembunyikan)
   
     live: "",             // tautan YouTube/Zoom
   hadiah: { rekening: [ // maksimal 2
