@@ -41,10 +41,10 @@ window.DATA_UNDANGAN = {
     maps: "https://maps.google.com/?q=Bekasi" },
 
   foto: 
-  { cover: "foto/cover.avif", 
+  { cover: "foto/galeri-6.webp", 
     mempelaiPria: "foto/pria.webp", 
     mempelaiWanita: "foto/wanita.webp", 
-    penutup: "foto/galeri3.avif", 
+    penutup: "foto/galeri-4.webp", 
     og: "foto/og.jpg" },
 
   musik: "musik/musiku.mp3",            // contoh: "musik/lagu.mp3" (kosong = tombol musik disembunyikan)
@@ -56,11 +56,11 @@ window.DATA_UNDANGAN = {
   [{tahun:"2020", judul:"Bertemu", isi:"tes"},
     {tahun:"2020", judul:"Bertemu", isi:"tes"}],            // contoh: [{tahun:"2020", judul:"Bertemu", isi:"..."}]
   
-  galeri: ["foto/galeri1.avif",
-    "foto/galeri2.avif",
-    "foto/galeri2.avif",
-    "foto/galeri2.avif",
-    "foto/galeri3.avif"],           // contoh: ["foto/g1.jpg","foto/g2.jpg"] (kosong = bagian disembunyikan)
+  galeri: ["foto/galeri-2.webp",
+    "foto/galeri-1.webp",
+    "foto/galeri-2.webp",
+    "foto/galeri-4.webp",
+    "foto/galeri-6.webp"],           // contoh: ["foto/g1.jpg","foto/g2.jpg"] (kosong = bagian disembunyikan)
   
     live: "",             // tautan YouTube/Zoom
   hadiah: { rekening: [ // maksimal 2
