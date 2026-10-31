@@ -44,7 +44,7 @@ window.DATA_UNDANGAN = {
   { cover: "foto/cover.avif", 
     mempelaiPria: "foto/pria.webp", 
     mempelaiWanita: "foto/wanita.webp", 
-    penutup: "foto/galeri3.webp", 
+    penutup: "foto/galeri3.avif", 
     og: "foto/og.jpg" },
 
   musik: "musik/musiku.mp3",            // contoh: "musik/lagu.mp3" (kosong = tombol musik disembunyikan)
