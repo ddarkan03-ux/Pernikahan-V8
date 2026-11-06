@@ -41,10 +41,10 @@ window.DATA_UNDANGAN = {
     maps: "https://maps.google.com/?q=Bekasi" },
 
   foto: 
-  { cover: "foto/galeri-6.webp", 
+  { cover: "foto/cover.avif", 
     mempelaiPria: "foto/pria.webp", 
     mempelaiWanita: "foto/wanita.webp", 
-    penutup: "foto/galeri-4.webp", 
+    penutup: "foto/galeri3.avif", 
     og: "foto/og.jpg" },
 
   musik: "musik/musiku.mp3",            // contoh: "musik/lagu.mp3" (kosong = tombol musik disembunyikan)
@@ -56,16 +56,16 @@ window.DATA_UNDANGAN = {
   [{tahun:"2020", judul:"Bertemu", isi:"tes"},
     {tahun:"2020", judul:"Bertemu", isi:"tes"}],            // contoh: [{tahun:"2020", judul:"Bertemu", isi:"..."}]
   
-  galeri: ["foto/galeri-2.webp",
-    "foto/galeri-1.webp",
-    "foto/galeri-2.webp",
-    "foto/galeri-4.webp",
-    "foto/cerita.webp"],           // contoh: ["foto/g1.jpg","foto/g2.jpg"] (kosong = bagian disembunyikan)
+  galeri: ["foto/galeri1.avif",
+    "foto/galeri2.avif",
+    "foto/galeri2.avif",
+    "foto/galeri2.avif",
+    "foto/galeri3.avif"],           // contoh: ["foto/g1.jpg","foto/g2.jpg"] (kosong = bagian disembunyikan)
   
     live: "",             // tautan YouTube/Zoom
   hadiah: { rekening: [ // maksimal 2
-    { label: "Mempelai Pria", jenis: "Nomor Rekening (BANK DEMO)", nomor: "0000000000", nama: "Raka Pratama (DEMO)" },
-    { label: "Mempelai Wanita", jenis: "Nomor E-Wallet (DEMO)", nomor: "081200000000", nama: "Salsabila Putri (DEMO)" } ],
+    { label: "Mempelai Pria", jenis: "MANDIRI", nomor: "0000000000", nama: "Raka Pratama (DEMO)" },
+    { label: "Mempelai Wanita", jenis: "JENIUS", nomor: "081200000000", nama: "Salsabila Putri (DEMO)" } ],
     penerima: "Salsa (081200000000)", alamatKado: "Jl. Contoh No. 2, Bekasi (DEMO)" },
   
     keluarga: { aktif: true, 
@@ -81,6 +81,10 @@ window.DATA_UNDANGAN = {
         "Kel. Besar Contoh G (DEMO)", 
         "Sahabat Contoh (DEMO)"] },
 
+  logoBank: true,
+
+  pihakKlien: "pria",           // "pria" / "wanita": nama pihak klien (pemesan) tampil lebih dulu
+  panelAdmin: { ucapanPublik: true, urutanNama: true, pesanWa: true },   // true/false: tampil/sembunyi di panel admin
   tampil: { ucapan: true, hadiah: true },
   templatPesan: "Assalamu'alaikum Wr. Wb.\n\nKepada Yth. {nama}\n\nDengan memohon rahmat Allah SWT, kami mengundang Bapak/Ibu/Saudara/i ke pernikahan {mempelai}.\n\nAkad: {akad}\nResepsi: {resepsi}\n\nInfo lengkap & konfirmasi kehadiran:\n{link}\n\nTerima kasih.",
   firebase: { apiKey: "AIzaSyBEA92p-xAjSyvDTWT09-zsuEDyjZg2dZw", authDomain: "undangan-saya.firebaseapp.com", projectId: "undangan-saya", appId: "1:996120910513:web:5df1e68b5e496fd899e090" }
